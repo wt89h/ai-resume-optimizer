@@ -1,0 +1,8 @@
+run = "pip install -r requirements.txt && uvicorn app.main:app --host 0.0.0.0 --port 3000"
+language = "python3"
+
+[env]
+PYTHONPATH = "."
+
+[nix]
+channel = "stable-24_05"
